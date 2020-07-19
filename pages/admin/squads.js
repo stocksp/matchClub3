@@ -34,9 +34,10 @@ function Squads() {
     textTransform: "none",
     minWidth: "100px",
     minHeight: "60px",
-
+    maxHeight: "60px",
     fontSize: "smaller",
     padding: "5px",
+    margin: "3px"
   };
 
   const squadButtom = {
@@ -52,6 +53,7 @@ function Squads() {
     maxHeight: "60px",
     fontSize: "smaller",
     padding: "5px",
+    margin: "3px"
   };
 
   const handleChange = (event) => {
@@ -138,7 +140,7 @@ function Squads() {
                   as="select"
                   custom
                   onChange={handleChange}
-                  style={{ width: "33%" }}
+                  style={{ width: "40%" }}
                 >
                   {dates.map((d, i) => {
                     const title = `${moment(d.date).format(

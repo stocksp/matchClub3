@@ -25,6 +25,7 @@
 .btn-primary {
   color: rgb(255, 217, 0);
   font-weight: bold;
+  width: 100px;
   margin: 3px;
 }
 .landingScores {
